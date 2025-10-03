@@ -1,7 +1,14 @@
 # Online_Book_Store-Analysis
 ## Business Problem
 -- 1) Retrieve all books in the "Fiction" genre:
+```
+select * from Books
+select count(genre) from Books
+where genre='Fiction';
 
+select * from Books
+where genre='Fiction';
+```
 
 
 -- 2) Find books published after the year 1950:
